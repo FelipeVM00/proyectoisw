@@ -12,9 +12,7 @@ public class App extends Application
 {
 	@Override
 	public void start(Stage stage) throws Exception {	
-		URL url = Thread.currentThread().getContextClassLoader ().getResource("menu.fxml");
-		System.out.println(url);
-		Parent root = FXMLLoader.load(url);
+		Parent root = FXMLLoader.load(getClass().getResource("/isw/vista/menu.fxml"));
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();

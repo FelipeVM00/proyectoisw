@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1440.0" style="-fx-background-color: #BDBDBD;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isw.controlador.CajaControlador">
+   <children>
+      <GridPane layoutX="611.0" layoutY="276.0" prefHeight="465.0" prefWidth="697.0" style="-fx-background-color: #A4A4A4;" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="btn7" mnemonicParsing="false" onAction="#click7" prefHeight="126.6" prefWidth="127.0" text="7">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn8" mnemonicParsing="false" onAction="#click8" prefHeight="126.6" prefWidth="127.0" text="8">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn9" mnemonicParsing="false" onAction="#click9" prefHeight="126.6" prefWidth="127.0" text="9">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnBorrar" mnemonicParsing="false" onAction="#clickBorrar" prefHeight="113.0" prefWidth="143.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="48.0" fitWidth="80.0" opacity="0.89" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@borrar.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnX" mnemonicParsing="false" onAction="#clickX" prefHeight="113.0" prefWidth="179.0" text="X">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btn4" mnemonicParsing="false" onAction="#click4" prefHeight="126.6" prefWidth="124.0" text="4">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn5" mnemonicParsing="false" onAction="#click5" prefHeight="126.6" prefWidth="124.0" text="5">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn6" mnemonicParsing="false" onAction="#click6" prefHeight="126.6" prefWidth="124.0" text="6">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnEfectivo" mnemonicParsing="false" onAction="#clickEfectivo" prefHeight="145.0" prefWidth="320.0" text="EFECTIVO">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btn1" mnemonicParsing="false" onAction="#click1" prefHeight="126.6" prefWidth="124.0" text="1">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn2" mnemonicParsing="false" onAction="#click2" prefHeight="126.6" prefWidth="124.0" text="2">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn3" mnemonicParsing="false" onAction="#click3" prefHeight="126.6" prefWidth="124.0" text="3">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnCredito" mnemonicParsing="false" onAction="#clickCredito" prefHeight="118.0" prefWidth="319.0" text="TARJETA DE CREDITO">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Button fx:id="btn0" mnemonicParsing="false" onAction="#click0" prefHeight="126.6" prefWidth="124.0" text="0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn00" mnemonicParsing="false" onAction="#clck00" prefHeight="126.6" prefWidth="124.0" text="00">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnP" mnemonicParsing="false" onAction="#clickP" prefHeight="126.6" prefWidth="124.0" text=".">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnGenerarFactura" mnemonicParsing="false" onAction="#clickGenerarFactura" prefHeight="114.0" prefWidth="319.0" text="GENERAR FACTURA">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+      <ScrollPane layoutX="609.0" layoutY="14.0" prefHeight="406.0" prefWidth="694.0" AnchorPane.bottomAnchor="480.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="14.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="408.0" prefWidth="695.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
