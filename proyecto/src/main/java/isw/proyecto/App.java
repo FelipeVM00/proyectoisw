@@ -12,11 +12,10 @@ public class App extends Application
 {
 	@Override
 	public void start(Stage stage) throws Exception {	
-		Parent root = FXMLLoader.load(getClass().getResource("/isw/vista/menu.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/isw/vista/login.fxml"));
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
-		stage.show();
-		stage.setFullScreen(true);
+		stage.show();   
 	}
 	public static void main( String[] args )
 	{
