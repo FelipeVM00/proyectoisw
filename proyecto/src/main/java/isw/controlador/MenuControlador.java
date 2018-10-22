@@ -20,6 +20,9 @@ public class MenuControlador {
 
     @FXML
     private Button botonGestInv;
+    
+    @FXML
+    private Button botonGestPed;
 
     @FXML
     void clickBotonCaja(ActionEvent event) throws IOException {
@@ -33,6 +36,11 @@ public class MenuControlador {
 
     @FXML
     void clickBotonGestInv(ActionEvent event) {
+    	
+    }
+    
+    @FXML
+    void clickBotonGestPed(ActionEvent event) {
     	
     }
 }
