@@ -42,5 +42,7 @@ public class MenuControlador {
     @FXML
     void clickBotonGestPed(ActionEvent event) {
     	
+    	
+    	
     }
 }
