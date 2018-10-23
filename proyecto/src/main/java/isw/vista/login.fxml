@@ -62,7 +62,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Text layoutX="82.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INICIO DE SECCION" wrappingWidth="270.943359375">
+      <Text layoutX="82.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INICIO DE SESIÓN" wrappingWidth="270.943359375">
          <font>
             <Font name="Arial Black" size="21.0" />
          </font>
