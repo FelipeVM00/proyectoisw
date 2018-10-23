@@ -1,8 +1,14 @@
 package isw.controlador;
 
+import java.io.IOException;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
 public class CajaControlador {
 
@@ -56,6 +62,19 @@ public class CajaControlador {
 
     @FXML
     private Button btnGenerarFactura;
+    
+    @FXML
+    private Button botonVolver;
+	
+	@FXML
+    void clickBotonVolver(ActionEvent event) throws IOException {
+		Stage stage = (Stage) botonVolver.getScene().getWindow();
+		Parent root = FXMLLoader.load(getClass().getResource("/isw/vista/menu.fxml"));
+		Scene scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+		stage.setFullScreen(true);
+    }
 
     @FXML
     void clck00(ActionEvent event) {
