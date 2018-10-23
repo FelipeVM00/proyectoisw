@@ -126,6 +126,17 @@
                         </ImageView>
                      </graphic>
                   </Button>
+                  <Button layoutX="51.0" layoutY="243.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="78.0" prefWidth="302.0" style="-fx-background-color: #A4A4A4;" text="OTROS" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow height="5.0" radius="2.0" width="5.0" />
+                     </effect>
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </GridPane>
          </children></Pane>
