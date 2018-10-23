@@ -73,7 +73,7 @@
                         <Font name="Arial Black" size="12.0" />
                      </font>
                   </RadioButton>
-                  <Button fx:id="botonVolver1" layoutX="66.0" layoutY="317.0" mnemonicParsing="false" onAction="#clickBotonVolver" prefHeight="36.0" prefWidth="163.0" text="ACEPTAR" GridPane.rowIndex="6">
+                  <Button fx:id="botonAceptar" layoutX="66.0" layoutY="317.0" mnemonicParsing="false" onAction="#clickBotonAceptar" prefHeight="36.0" prefWidth="163.0" text="ACEPTAR" GridPane.rowIndex="6">
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
