@@ -8,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.RadioButton;
 import javafx.stage.Stage;
 
 public class GestPedControlador {
@@ -17,6 +18,12 @@ public class GestPedControlador {
 	
 	@FXML
     private Button botonAceptar;
+	
+	@FXML
+    private RadioButton botonSolicitarCatalogo;
+	
+	@FXML
+    private RadioButton botonRealizarPedido;
 	
 	@FXML
     void clickBotonVolver(ActionEvent event) throws IOException {
@@ -30,6 +37,13 @@ public class GestPedControlador {
 	
 	@FXML
     void clickBotonAceptar(ActionEvent event) throws IOException {
+		if(botonSolicitarCatalogo.isSelected()) {
+			Stage stage = (Stage) botonAceptar.getScene().getWindow();
+			Parent root = FXMLLoader.load(getClass().getResource("/isw/vista/solicitarCatalogo.fxml"));
+			Scene scene = new Scene(root);
+			stage.setScene(scene);
+			stage.show();
+		}
 		
 	}
 }

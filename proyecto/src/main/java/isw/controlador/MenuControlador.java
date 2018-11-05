@@ -46,9 +46,15 @@ public class MenuControlador {
 	}
 
 	@FXML
-	void clickBotonGestInv(ActionEvent event) {
+	void clickBotonGestInv(ActionEvent event) throws IOException {
 
-	}
+		Stage stage = (Stage) botonGestInv.getScene().getWindow();
+		Parent root = FXMLLoader.load(getClass().getResource("/isw/vista/gesInventario.fxml"));
+		Scene scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+		stage.setFullScreen(true);
+		}
 
 	@FXML
 	void clickBotonGestPed(ActionEvent event) throws IOException {
