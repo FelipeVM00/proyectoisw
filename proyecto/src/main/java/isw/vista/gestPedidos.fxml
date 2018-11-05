@@ -45,7 +45,7 @@
                         <InnerShadow height="5.0" radius="1.25" width="2.0" />
                      </effect>
                   </Button>
-                  <RadioButton mnemonicParsing="false" text="SOLICITAR CATALOGO">
+                  <RadioButton fx:id="botonSolicitarCatalogo" mnemonicParsing="false" text="SOLICITAR CATALOGO">
                      <font>
                         <Font name="Arial Black" size="12.0" />
                      </font>
@@ -53,7 +53,7 @@
                         <ToggleGroup fx:id="grupoOpcion" />
                      </toggleGroup>
                   </RadioButton>
-                  <RadioButton layoutX="61.0" layoutY="30.0" mnemonicParsing="false" text="REALIZAR PEDIDO" toggleGroup="$grupoOpcion" GridPane.rowIndex="1">
+                  <RadioButton fx:id="botonRealizarPedido" layoutX="61.0" layoutY="30.0" mnemonicParsing="false" text="REALIZAR PEDIDO" toggleGroup="$grupoOpcion" GridPane.rowIndex="1">
                      <font>
                         <Font name="Arial Black" size="12.0" />
                      </font>
@@ -73,7 +73,7 @@
                         <Font name="Arial Black" size="12.0" />
                      </font>
                   </RadioButton>
-                  <Button fx:id="botonAceptar" layoutX="66.0" layoutY="317.0" mnemonicParsing="false" onAction="#clickBotonAceptar" prefHeight="36.0" prefWidth="163.0" text="ACEPTAR" GridPane.rowIndex="6">
+                  <Button fx:id="botonAceptar" layoutX="227.0" layoutY="317.0" mnemonicParsing="false" onAction="#clickBotonAceptar" prefHeight="36.0" prefWidth="163.0" text="ACEPTAR" GridPane.rowIndex="6">
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
